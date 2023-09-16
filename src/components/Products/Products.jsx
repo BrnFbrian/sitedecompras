@@ -14,7 +14,7 @@ function Products(){
 
     fetchProducts('iphone').then((response) => {
       setProducts(response);
-      setLoading(true);
+      setLoading(false);
       
     });
 
