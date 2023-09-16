@@ -7,7 +7,7 @@ function CartButton() {
   return(
     <button type="button" className="cart__button">
       <GrCart />
-      <span className="cart-status"></span>
+      <span className="cart-status">1</span>
     </button>
   );
 }
